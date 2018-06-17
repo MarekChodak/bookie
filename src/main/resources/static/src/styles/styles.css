@@ -1,0 +1,248 @@
+
+a.active {
+  color: orange;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav > .open > a {
+  background-color: #EDEDED !important;
+}
+
+.nav-top-item:hover {
+  color: #00b3ee !important;
+}
+
+.nav-top-item {
+  color: #000 !important;
+}
+
+.sub-header {
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 10px;
+}
+
+#navbar > .navbar-right{
+  display: inline-block;
+  float: right;
+  position: static;
+  margin-left: 170px;
+}
+
+.navbar-fixed-top {
+  border: 0 none;
+  position: relative;
+  background-color: #EDEDED;
+  border-bottom: 1px solid #D9DEF0;
+}
+
+#app-navbar-top {
+  margin-bottom: 0px;
+}
+
+.sidebar {
+  display: none;
+}
+
+.taskListTaskElement {
+  position: relative;
+}
+
+.taskDeleteButton {
+  display: inline;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+.taskListElement {
+  font-weight: bold;
+  display: inline;
+  padding-left: 0px;
+  padding-right: 15px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.appIcon {
+  border: 1px solid #EAEAEA;
+  padding: 4px 3px;
+}
+
+.appName {
+  font-size: 200%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e7e7e7;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.appNameLink{
+  text-decoration: none;
+}
+
+.appNameLink:hover, .appNameLink:focus{
+  text-decoration: none;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.471;
+}
+
+.sidebar {
+  background-color: #2a3f54;
+  bottom: 0;
+  display: block;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px;
+  padding-top: 10px;
+  position: fixed;
+  width: 170px;
+  top: 0px;
+  z-index: 2000;
+}
+
+.mainView {
+  margin-left: 155px;
+  padding:5px;
+}
+
+.nav-sidebar > li > a:hover, .nav-sidebar > li > a:focus {
+  background-color: #2a3f54;
+  color: #00b3ee;
+  outline: none;
+}
+
+.nav-sidebar {
+  margin-bottom: 20px;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.nav-sidebar .fa {
+  width: 26px;
+}
+
+.nav-sidebar > li > a {
+  padding-left: 30px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  color: #b9c6d2;
+  cursor: pointer;
+}
+
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+  background-color: #171D20;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.x_panel {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  opacity: 1;
+}
+
+.x_title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+  margin-bottom: 10px;
+}
+
+.x_title h2 {
+  margin: 5px 0 6px;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #73879C;
+  font-size: 17px;
+}
+
+.myBabyBar {
+  font-size: 120%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e7e7e7;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 92px;
+}
+
+.myBabyBar p {
+  text-align: center;
+  margin: 0;
+}
+
+.myBabyBar button {
+  line-height: 1;
+  margin-top: 3px;
+  margin-left: 15px;
+}
+
+#myBabyBarAge{
+  line-height: 1;
+  margin-top: 10px;
+}
+
+#myBabyNameSide{
+  margin-top: 10px;
+}
+
+.sideBabyPic{
+  height: 160px;
+}
+
+.custom-modal-header{
+  background-color: #5cb85c;
+}
+
+.react-datepicker {
+  font-size: 1.3rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}

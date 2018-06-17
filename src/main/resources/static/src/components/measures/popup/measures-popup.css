@@ -1,0 +1,45 @@
+#measuresHeadPanel{
+  position: relative;
+}
+
+.app-modal-header > h3 {
+  display: inline;
+}
+
+.custom-modal-header{
+  background-color: #5cb85c;
+}
+
+#addMeasureBtn{
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  padding: 5px;
+}
+
+#measuresPanel{
+  position: relative;
+  min-height:520px;
+}
+
+.measurePanelClose{
+  float: right;
+}
+
+.measurePopup-enter {
+  opacity: 0.01;
+  transition: opacity 0.3s ease-in;
+}
+
+.measurePopup-enter.measurePopup-enter-active {
+  opacity: 1;
+}
+
+.measurePopup-leave {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.measurePopup-leave.measurePopup-leave-active {
+  opacity: 0.01;
+}

@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.3.6.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+apply plugin: 'war'
+
+war {
+    baseName = 'bookie'
+    version =  '0.0.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile group: 'javax.servlet', name: 'jstl', version: '1.2'
+
+    // tag::jetty[]
+    compile("org.springframework.boot:spring-boot-starter-web") {
+        exclude module: "spring-boot-starter-tomcat"
+    }
+
+
+    compile("org.springframework.boot:spring-boot-starter-security")
+
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-io
+    compile group: 'org.apache.commons', name: 'commons-io', version: '1.3.2'
+
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb")
+    // https://mvnrepository.com/artifact/javax.servlet/servlet-api
+    compile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+
+    testCompile("junit:junit")
+
+}

@@ -1,0 +1,21 @@
+.doseWarning-enter {
+  opacity: 0.01;
+  transition: opacity 0.3s ease-in;
+}
+
+.doseWarning-enter.doseWarning-enter-active {
+  opacity: 1;
+}
+
+.doseWarning-leave {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.doseWarning-leave.doseWarning-leave-active {
+  opacity: 0.01;
+}
+
+.doseWarn{
+  color: red;
+}

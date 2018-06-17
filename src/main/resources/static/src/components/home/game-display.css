@@ -1,0 +1,28 @@
+.gameHead{
+  position: relative;
+  text-align: center;
+  color: #9befd5;
+}
+
+.gamePanel {
+  width: 400px;
+}
+
+.yourBet{
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+.gameField {
+  text-align: center;
+}
+
+.score-left{
+  float: right;
+}
+
+.score-right{
+  float: left;
+}
+

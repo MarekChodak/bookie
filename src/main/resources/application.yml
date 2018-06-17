@@ -1,0 +1,7 @@
+spring:
+    data:
+        mongodb:
+            database: baby
+multipart:
+    maxFileSize: 10Mb # Max file size.
+    maxRequestSize: 10Mb # Max request size
